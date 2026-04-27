@@ -1,0 +1,16 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js server with GET endpoint",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["node", "server", "express"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
