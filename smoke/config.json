@@ -1,0 +1,5 @@
+{
+  "id": "smoke-agent",
+  "task": "No-op smoke test",
+  "repoPath": "/home/vinod/Documents/Github/learn-agent/smoke/repo"
+}

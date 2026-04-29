@@ -1,16 +1,10 @@
 {
-  "name": "simple-node-server",
-  "version": "1.0.0",
-  "description": "A simple Node.js server with GET endpoint",
-  "main": "server.js",
+  "name": "codex-lite-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
-  "keywords": ["node", "server", "express"],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
+    "start": "node orchestrator/server.js",
+    "check": "node --check orchestrator/server.js && node --check agent/runner.js"
   }
 }
